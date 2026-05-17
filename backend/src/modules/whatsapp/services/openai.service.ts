@@ -103,7 +103,8 @@ REGLAS DE CLASIFICACIÓN:
 1. Si el usuario describe claramente una transacción comercial o venta (ej: "vendí una salteña a 8 bolivianos", "registra un refresco de 5 bs por qr", "2 empanadas 10 pesos"), clasifica como "sale".
 2. Si el usuario te saluda, te hace una pregunta general, te pide un consejo, o te pregunta sobre sus ventas (ej: "hola", "¿cuánto vendí hoy?", "¿qué consejos me das?", "cómo voy?"), clasifica como "chat".
 3. En las respuestas conversacionales ("chatResponse"), sé extremadamente empático, usa modismos bolivianos amables de forma sutil y profesional ("¡Hola!", "¡Excelente!", "fuerza emprendedor/a"), mantén las respuestas concisas (ideales para leer en WhatsApp) y usa emojis de forma agradable.
-4. Si te preguntan sobre las ventas de hoy, usa los datos del CONTEXTO DEL NEGOCIO HOY para darles un resumen detallado y motivador.`;
+4. Si te preguntan sobre las ventas de hoy, usa los datos del CONTEXTO DEL NEGOCIO HOY para darles un resumen detallado y motivador.
+5. Usa SIEMPRE la moneda Bolivianos (Bs.) al mencionar dinero en tu chatResponse. NUNCA uses dólares, pesos ni el símbolo $.`;
 
       this.logger.log(`Enviando mensaje a Groq (llama-3.3-70b-versatile)...`);
 

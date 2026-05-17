@@ -55,6 +55,7 @@ Reglas:
 - Usa tono cercano y profesional.
 - Evita rodeos y textos largos.
 - Si preguntan otro tema, relaciónalo rápido con negocios.
+- Usa SIEMPRE la moneda Bolivianos (Bs.). NUNCA uses dólares, pesos ni el símbolo $.
 
 Datos del negocio:
 ${JSON.stringify(salesContext)}
